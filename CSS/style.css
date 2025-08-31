@@ -1,0 +1,56 @@
+#container {
+  width: 720px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#logo {
+  height: 100px;
+  background: #9e9e9e;
+  text-align: center;
+  line-height: 100px;
+}
+
+#content {
+  width: 520px;
+  float: right;
+}
+
+#primary-content {
+  width: 320px;
+  float: left;
+}
+
+#secundary-content {
+  width: 180px;
+  float: right;
+  background: #d1d1d1;
+}
+
+#secundary-content h1, 
+#secundary-content h2, 
+#secundary-content h3, 
+#secundary-content p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#nav {
+  width: 180px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d1d1d1;
+}
+
+#nav ul li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#footer {
+  clear: both;
+  background: #c4c4c4;
+  padding: 15px;
+  text-align: center;
+}
