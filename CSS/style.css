@@ -1,41 +1,41 @@
-#container {
+#fixed-container {
   width: 720px;
   margin: 0 auto;
   background: #fff;
 }
 
-#logo {
+#fixed-logo {
   height: 100px;
   background: #9e9e9e;
   text-align: center;
   line-height: 100px;
 }
 
-#content {
+#fixed-content {
   width: 520px;
   float: right;
 }
 
-#primary-content {
+#fixed-primary-content {
   width: 320px;
   float: left;
 }
 
-#secundary-content {
+#fixed-secundary-content {
   width: 180px;
   float: right;
   background: #d1d1d1;
 }
 
-#secundary-content h1, 
-#secundary-content h2, 
-#secundary-content h3, 
-#secundary-content p {
+#fixed-secundary-content h1, 
+#fixed-secundary-content h2, 
+#fixed-secundary-content h3, 
+#fixed-secundary-content p {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#nav {
+#fixed-nav {
   width: 180px;
   float: left;
   padding-top: 20px;
@@ -43,12 +43,72 @@
   background: #d1d1d1;
 }
 
-#nav ul li {
+#fixed-nav ul li {
   text-align: center;
   padding: 5px 0;
 }
 
-#footer {
+#fixed-footer {
+  clear: both;
+  background: #c4c4c4;
+  padding: 15px;
+  text-align: center;
+}
+
+#liquid-container {
+  width: 47.5%;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 720px;
+}
+
+#liquid-logo {
+  width: 100%;
+  height: 100px;
+  background: #9e9e9e;
+  text-align: center;
+  line-height: 100px;
+}
+
+#liquid-content {
+  border: 1px solid #000;
+  width: 72.3%;
+  float: right;
+}
+
+#liquid-primary-content {
+  width: 62%;
+  float: left;
+}
+
+#liquid-secundary-content {
+  width: 36%;
+  float: right;
+  background: #d1d1d1;
+}
+
+#liquid-secundary-content h1, 
+#liquid-secundary-content h2, 
+#liquid-secundary-content h3, 
+#liquid-secundary-content p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#liquid-nav {
+  width: 24.5%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d1d1d1;
+}
+
+#liquid-nav ul li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#liquid-footer {
   clear: both;
   background: #c4c4c4;
   padding: 15px;
