@@ -1,3 +1,4 @@
+/*primeiro layout*/
 #fixed-container {
   width: 720px;
   margin: 0 auto;
@@ -55,6 +56,8 @@
   text-align: center;
 }
 
+/*segundo layout*/
+
 #liquid-container {
   width: 47.5%;
   margin: 0 auto;
@@ -71,7 +74,6 @@
 }
 
 #liquid-content {
-  border: 1px solid #000;
   width: 72.3%;
   float: right;
 }
@@ -109,6 +111,72 @@
 }
 
 #liquid-footer {
+  clear: both;
+  background: #c4c4c4;
+  padding: 15px;
+  text-align: center;
+}
+
+/*terceiro layout*/
+
+#image-liquid-container {
+  width: 47.5%;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 720px;
+}
+
+#image-liquid-logo {
+  width: 100%;
+  height: 200px;
+  background: #225992 url(../image/cabecalho2.jpg) no-repeat center;
+  text-align: center;
+  line-height: 200px;
+}
+
+#image-liquid-content {
+  width: 72.3%;
+  float: right;
+}
+
+#image-liquid-primary-content {
+  width: 62%;
+  float: left;
+}
+
+img.img-liquid {
+  width: 96%;
+  padding: 2%;
+}
+
+#image-liquid-secundary-content {
+  width: 36%;
+  float: right;
+  background: #d1d1d1;
+}
+
+#image-liquid-secundary-content h1, 
+#image-liquid-secundary-content h2, 
+#image-liquid-secundary-content h3, 
+#image-liquid-secundary-content p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#image-liquid-nav {
+  width: 24.5%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d1d1d1;
+}
+
+#image-liquid-nav ul li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#image-liquid-footer {
   clear: both;
   background: #c4c4c4;
   padding: 15px;
